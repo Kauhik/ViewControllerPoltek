@@ -14,8 +14,8 @@
 		4A2D23BE22BB70E500494C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D23BC22BB70E500494C55 /* LaunchScreen.storyboard */; };
 		4AA5C4B822BB9CC200277977 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA5C4B722BB9CC200277977 /* VideoCapture.swift */; };
 		50E5D801247B932E00A25665 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E5D800247B932E00A25665 /* SummaryViewController.swift */; };
-		80ED41EB2E273A6600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 80ED41EA2E273A6600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel */; };
 		80ED41ED2E273CB300B3CA32 /* PoltekActionClassifierORIGINAL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED41EC2E273CB300B3CA32 /* PoltekActionClassifierORIGINAL+Extensions.swift */; };
+		80ED42542E27846600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 80ED42532E27846600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel */; };
 		DF20C7362578044800C9DB98 /* Pose+Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20C7352578044800C9DB98 /* Pose+Landmark.swift */; };
 		DF20C7392578047E00C9DB98 /* Pose+Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20C7382578047E00C9DB98 /* Pose+Connection.swift */; };
 		DF20C73C257805AE00C9DB98 /* Pose+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF20C73B257805AE00C9DB98 /* Pose+Empty.swift */; };
@@ -40,8 +40,8 @@
 		4AA5C4B722BB9CC200277977 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		50E5D800247B932E00A25665 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		57C02DF057C02B4000000001 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		80ED41EA2E273A6600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoltekActionClassifierORGINAL.mlmodel; sourceTree = "<group>"; };
 		80ED41EC2E273CB300B3CA32 /* PoltekActionClassifierORIGINAL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoltekActionClassifierORIGINAL+Extensions.swift"; sourceTree = "<group>"; };
+		80ED42532E27846600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoltekActionClassifierORGINAL.mlmodel; sourceTree = "<group>"; };
 		A7EFFBC4008F114FF6A77F64 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		DF20C7352578044800C9DB98 /* Pose+Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pose+Landmark.swift"; sourceTree = "<group>"; };
 		DF20C7382578047E00C9DB98 /* Pose+Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pose+Connection.swift"; sourceTree = "<group>"; };
@@ -114,9 +114,9 @@
 		50C8DA9323D13B6300734053 /* Action Classifier */ = {
 			isa = PBXGroup;
 			children = (
+				80ED42532E27846600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel */,
 				DF49B64725CB563E008A61F3 /* ActionPrediction.swift */,
 				80ED41EC2E273CB300B3CA32 /* PoltekActionClassifierORIGINAL+Extensions.swift */,
-				80ED41EA2E273A6600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel */,
 			);
 			path = "Action Classifier";
 			sourceTree = "<group>";
@@ -277,10 +277,10 @@
 				FADD45BD24D55CE200955140 /* AVCaptureDevice+FrameRate.swift in Sources */,
 				50E5D801247B932E00A25665 /* SummaryViewController.swift in Sources */,
 				4A2D23B622BB70E400494C55 /* MainViewController.swift in Sources */,
-				80ED41EB2E273A6600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel in Sources */,
 				DFE2078525AFECC800FB76EF /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
 				DFA9EECB2571951800849AFB /* Pose.swift in Sources */,
 				DF20C73C257805AE00C9DB98 /* Pose+Empty.swift in Sources */,
+				80ED42542E27846600B3CA32 /* PoltekActionClassifierORGINAL.mlmodel in Sources */,
 				DF20C7362578044800C9DB98 /* Pose+Landmark.swift in Sources */,
 				DFD1ED022564427700466FDA /* VideoProcessingChain.swift in Sources */,
 				4A2D23B222BB70E400494C55 /* AppDelegate.swift in Sources */,
